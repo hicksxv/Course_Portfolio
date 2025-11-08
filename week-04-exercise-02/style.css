@@ -43,6 +43,9 @@ main>p {
 
 .collection-grid {
     margin: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .collection-card {
