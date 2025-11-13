@@ -121,3 +121,37 @@ button {
     box-shadow: 0 8px 20px rgba(232, 67, 147, 0.35);
     border: 1px solid #e84393;
 }
+.button-05 {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: 1px solid #1e7e50;
+    font-family: var(--btn-font);
+    border-radius: var(--btn-radius);
+    cursor: pointer;
+    transition: background-color 0.25s ease, color 0.25s ease, opacity 0.25s ease;
+}
+.button-05:hover {
+    background-color: #ffffff;
+    color: #2ecc71;
+    opacity: 0.95;
+    transform: translateY(-1px);
+    border: 1px solid #2ecc71;
+}
+.button-06 {
+    background-color: #f39c12;
+    color: #212529;
+    padding: 12px 20px;
+    border: 1px solid #d08719;
+    font-family: var(--btn-font);
+    border-radius: var(--btn-radius);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+.button-06:hover {
+    background-color: #ffd88a;
+    color: #1d1d1d;
+    transform: translateY(-2px) scale(1.01);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    border: 1px solid #e0a800;
+}
