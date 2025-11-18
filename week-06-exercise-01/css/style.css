@@ -146,7 +146,33 @@ code {
 .nav-horizontal+main {
   margin-top: 80px;
 }
-
+.nav-centered {
+  display: flex;
+  justify-content: center;
+  background-color: #232946;     /* Custom background color */
+  border-radius: 12px;           /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  padding: 1em 0.5em;            /* Space above/below */
+  gap: 2em;                      /* Space between links */
+  font-family: 'Nunito Sans', Arial, sans-serif; /* Custom font */
+}
+.nav-centered a {
+  color: #fffffe;                /* Custom link color */
+  font-size: 1.1em;              /* Increase font size */
+  letter-spacing: 0.06em;
+  padding: 0.7em 1.5em;          /* Larger clickable area */
+  border-right: 2px solid #eebbc3; /* Soft colored divider */
+  border-radius: 4px;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.nav-centered a:last-child {
+  border-right: none;            /* No border after last link */
+}
+.nav-centered a:hover, .nav-centered a:focus {
+  background: #eebbc3;           /* Light accent on hover */
+  color: #232946;                /* Text color flips on hover */
+  box-shadow: 0 2px 8px rgba(34,41,70,0.08); /* Subtle shadow */
+}
 .nav-custom {}
 
 .nav-custom ul {}
