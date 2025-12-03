@@ -24,7 +24,7 @@
 
     nav a {
       margin-left: 1.5rem;
-      color: #afb9ce;
+      color: #ff0000;
       text-decoration: none;
       font-size: 0.95rem;
     }
@@ -54,7 +54,7 @@
       letter-spacing: 0.18em;
       padding: 0.35rem 0.75rem;
       border-radius: 999px;
-      background: #ff0000;
+      background: #e0f2fe;
       color: #fd0101;
       margin-bottom: 0.75rem;
     }
