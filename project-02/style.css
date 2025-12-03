@@ -8,7 +8,7 @@
 
     header {
       background-color: var(--ttu-black);
-  color: var(--ttu-white);
+  color: var(--ttu-red);
   padding: 1rem 8%;
   display: flex;
   align-items: center;
