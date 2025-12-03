@@ -148,12 +148,12 @@
     }
 
     .section-card {
-      background: #999999;
+      background: #ffffff;
       border-radius: 1rem;
       padding: 2rem;
       margin-bottom: 2rem;
-      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
-      border: 1px solid #080808;
+      box-shadow: 0 16px 40px rgba(255, 0, 0, 0.08);
+      border: 1px solid #ff0000;
     }
 
     .section-card h3 {
